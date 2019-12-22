@@ -3,9 +3,12 @@
 <head>
   <meta charset="utf-8">
   
-
   <title>yang&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  
   <meta property="og:type" content="website">
 <meta property="og:title" content="yang&#39;s blog">
 <meta property="og:url" content="http:&#x2F;&#x2F;yfu1116.github.io&#x2F;index.html">
@@ -13,305 +16,415 @@
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="yang&#39;s blog" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="yang&#39;s blog" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/liulab_logo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/liulab_logo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt; src:url("css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt-light; src:url("css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt-italic; src:url("css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+}
+
+  </style>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+
+  
+    <link rel="stylesheet" href="/css/home.css" >
+  
+
+  
+
+  
+
   
   
-    <link rel="icon" href="/favicon.png">
-  
-  <!--<link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">-->
-  <link rel="stylesheet" href="/./lib/foundation/css/normalize.css">
-<link rel="stylesheet" href="/./lib/foundation/css/foundation.css">
-  <link rel="stylesheet" href="/./css/style.css">
   
 
 </head>
 
-<body>
-<div class="off-canvas-wrap" data-offcanvas>
-  <div class="inner-wrap">
 
 
-  <div id="container" class="page">
-
-    <div>
-      <header class="l-header">
-  <div class="l-banner"></div>
-
-  <div class="contain-to-grid sticky">
-
-      <nav id="main-nav" class="top-bar">
-        <ul class="title-area">
-            <li class="name">
-              <h1 class="logo-wrap">
-                <a href="/" id="logo">yang&#39;s blog</a>
-              </h1>
-              
-            </li>
-             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon">
-              <a role="button" href="#idOfRightMenu" class="left-off-canvas-toggle menu-icon" ><span></span></a>
-            </li>
-          </ul>
+  <body>
 
 
-        <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="right">
-            
-            <li>
-              <a class="main-nav-link" href="/">Home</a>
-            </li>
-            
-            <li>
-              <a class="main-nav-link" href="/archives">Archives</a>
-            </li>
-            
-          </ul>
-        </section>
-
-
-      <ul id="nav-search-form" class="left">
-        <li>
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        </li>
-
-        <li class="has-form">
-            <div class="l-search">
-  <form class="row collapse" action="//google.com/search" method="get" accept-charset="utf-8">
-    <div class="large-8 small-9 columns">
-      <input type="search" name="q" results="0" placeholder="search">
-    </div>
-    <div class="large-4 small-3 columns">
-      <button href="#" class="button expand">Search</button>
-    </div>
-    <input type="hidden" name="q" value="site:yfu1116.github.io">
-  </form>
-</div>
-
-        </li>
-      </ul>
-
-      </nav>
-
-    </div>
-
-  </div>
-</header>
-
-
-      <div class="l-main row">
-
-        <section id="main" class="medium-8 large-8 columns">
-          
   
-    <article id="post-liu-lab" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-main">
+    <header id="header">
+
+	<!-- 背景图模式 -->
+	
 
     
+      <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
 
+      <!-- Support rolling -->  
+        <!-- Don't rolling -->
+        <script>
+            var imgUrls = "css/images/sample.jpg,https://source.unsplash.com/collection/954550/1920x1080".split(",");
+            var random = Math.floor((Math.random() * imgUrls.length ));
+            if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+              document.getElementById("intrologo").style.backgroundImage='url(' + imgUrls[random] + ')';
+            } else {
+              document.getElementById("intrologo").style.backgroundImage='url(/' + imgUrls[random] + ')';
+            }
+        </script>
+      
+
+    
+ 
+
+
+    <canvas width="100%" height="100%"></canvas>
+    <script>
+      var c = document.getElementsByTagName('canvas')[0],
+          x = c.getContext('2d'),
+          w = window.innerWidth,
+          h = window.innerHeight,
+          pr = window.devicePixelRatio || 1,
+          f = 90,
+          q,
+          m = Math,
+          r = 0,
+          u = m.PI*2,
+          v = m.cos,
+          z = m.random
+      c.width = w*pr
+      c.height = h*pr
+      x.scale(pr, pr)
+      x.globalAlpha = 0.6
+
+      <!-- 折线Polyline背景 -->
+      
+    </script>
+    
+
+    
+      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
+    
+
+        
+          <div class="homelogoback"  style="border: 1px solid #404040;" >
+            <h1><a href="#content" id="logo">yang&#39;s blog</a></h1>
+            <h3></h3>
+            <h5></h5>
+            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
+          </div>
+        
+    
+    </div>
+  </div>
+
+  <!-- 自适应主页背景大图 -->
+  
+    <script>
+        var img = new Image();
+        var intrologodiv = document.getElementById("intrologo");
+        img.src = intrologodiv.style.backgroundImage.replace('url(','').replace(')','').replace(/\"/gi, "");
+        img.onload=function(){
+          if (img.width / img.height <= document.body.clientWidth / document.body.clientHeight) {
+            intrologodiv.style.backgroundSize = "100% auto";
+          } else {
+            intrologodiv.style.backgroundSize = "auto 100%";
+          }
+        };
+    </script>
+ 
+
+ <!-- home_logo_image居中 -->
+ 
+    <script>
+        var homelogodiv = document.getElementById("homelogo");
+        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
+          homelogodiv.style.width = document.body.clientWidth + "px";
+          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
+        } else {
+          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
+          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
+        }
+    </script>
+  
+
+  <div class="intro-navigate">
+      <p class="navigater-list">
+        
+          <a id="beautifont" class="main-nav-link" href="/">Home</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/archives">Archives</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/categories">Categories</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
+        
+          <a id="beautifont" class="main-nav-link" href="/about">About</a>
+        
+      </p>
+  </div>
+
+</header>
+  
+  <div id="container">
+    <div id="wrap">
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;">
+  
+    <article id="post-liu-lab"  class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
+    <h1 class="thumb" itemprop="name">
       <a class="article-title" href="/liu-lab/">liu-lab</a>
     </h1>
   
 
       </header>
-      <hr />
     
-
     <div class="article-meta">
-      <span class="article-datetime">
-      <a href="/liu-lab/" class="article-date">
-  <time datetime="2019-11-05T05:59:28.000Z" itemprop="datePublished">Nov 5th, 2019</time>
-</a>
-      </span>
       
+	<a href="/liu-lab/" class="article-date">
+	  <time datetime="2019-11-05T05:59:28.000Z" itemprop="datePublished">2019-11-05</time>
+	</a>
+
+      
+      
+      
+
     </div>
-
-
-
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Welcome-to-Liu-Lab"><a href="#Welcome-to-Liu-Lab" class="headerlink" title="Welcome to Liu Lab."></a><center>Welcome to Liu Lab.</center></h1><p>课题组隶属于动物基因组研究中心“猪基因组设计育种创新团队”，整合表观遗传学实验技术和生物信息学技术，围绕猪经济性状的分子育种理论与技术开展工作。</p>
-<h3 id="Principal-Investigator-刘毓文"><a href="#Principal-Investigator-刘毓文" class="headerlink" title="Principal Investigator 刘毓文"></a>Principal Investigator 刘毓文</h3><p><strong>工作经历：</strong></p>
-<p>2019.01至今：中国农业科学院农业基因组研究所，动物基因组中心，研究员， 课题组组长</p>
-<p>2018.08 - 2019.01：深圳深知生物科技有限公司，首席科学家 </p>
-<p>2014.08 - 2018.07：芝加哥大学，人类遗传学，博士后  </p>
-<p><strong>教育背景：</strong></p>
-<p>2006.09 - 2014.06：芝加哥大学，发育生物学，博士 </p>
-<p>2002.09 - 2006.06：清华大学，生物科学与技术，学士 </p>
-<p><strong>研究方向：</strong></p>
-<ol>
-<li>建立起完整的猪骨骼肌不同发育阶段的非编码区功能基因组注释;</li>
-</ol>
-<ol start="2">
-<li>在群体层面研究DNA变异如何通过影响转录调控的不同元件来影响猪的产肉性状，继而在全基因组层面解析产肉性状的遗传机理;</li>
-</ol>
-<ol start="3">
-<li>开发新的实验方法找寻影响复杂性状的非编码区调控原件;</li>
-</ol>
-<ol start="4">
-<li>开发新计算方法，提高全基因组选育的准确性，包括结合功能基因组注释进行性状预测和跨群体的性状预测;</li>
-</ol>
-<ol start="5">
-<li>开发基于新生突变寻找复杂性状效应基因的新算法。</li>
-</ol>
-<p><strong>主要论文：</strong></p>
-<p>第一作者（包括共同第一作者）标注#号，通讯作者（包括共同通讯作者）标注*号 </p>
-<p>1)  <strong>Liu Y#</strong>, Zhou J, White K P*. RNA-seq differential expression studies: more sequence or more replication?[J]. Bioinformatics, 2013, 30(3): 301-304.</p>
-<p>2)  <strong>Liu Y#</strong>, Yu S#, Dhiman V K#, Tonya Brunetti, Heather Eckart*, Kevin P White*. Functional assessment of human enhancer activities using whole-genome STARR-sequencing[J]. Genome biology, 2017, 18(1): 219. </p>
-<p>3)  Song Liu#, <strong>Yuwen Liu#</strong>, Qin Zhang, Jiayu Wu, Junbo Liang, Shan Yu, Gong-Hong Wei, Kevin P White*, Xiaoyue Wang*. Systematic identification of regulatory variants associated with cancer risk[J]. Genome biology, 2017, 18(1): 194. </p>
-<p>4)  Lulu Hu#，<strong>Yuwen Liu#</strong>， Shengtong Han#，Lei Yang#，…，Xin He*，Chuan He*. Jump-seq: Genome-Wide Capture and Amplification of 5Hydroxymethylcytosine Sites[J]. Journal of the American Chemical Society, 2019. </p>
-<p>5)  <strong>Yuwen Liu#</strong>, Yanyu Liang, A Ercument Cicek, …, Zhong Sheng Sun*, Xin He*. A statistical framework for mapping risk genes from de novo mutations in whole-genome-sequencing studies[J]. The American Journal of Human Genetics, 2018, 102(6): 1031-1047. </p>
-<p>6)  Donna M Werling#, Harrison Brand, …, <strong>Yuwen Liu</strong>, …, Bernie Devlin<em>, Michael E Talkowski\</em>, Stephan J Sanders*. An analytical framework for whole-genome sequence association studies and its implications for autism spectrum disorder[J]. Nature genetics, 2018, 50(5): 727. </p>
-<p>7)  Siming Zhao#, Jun Liu, Pranav Nanga, <strong>Yuwen Liu</strong>, A. Ercument Cicek, Nicholas Knoblauch, Chuan He, Matthew Stephens*，Xin He*. Detailed modeling of positive selection improves detection of cancer driver genes[J]. Nature communications, 2019, 10(1): 3399. </p>
-<p>8) Shengtong Han#, Nicholas Knoblauch, Gao Wang, Siming Zhao, <strong>Yuwen Liu</strong>, Yubin Xie, Wenhui Sheng, Hoang T. Nguyen, Xin He*. A Bayesian method for rare variant analysis using functional annotations and its application to Autism[J]. bioRxiv, 2019: 828061.</p>
-<p>9)  Xinxin Ke#, Alesia Walker, Sven-Bastiaan Haange, Ilias Lagkouvardos, <strong>Yuwen Liu</strong>, …, Peter C.K. Cheung*. Synbiotic-driven improvement of metabolic disturbances is associated with changes in the gut microbiome in diet-induced obese mice[J]. Molecular metabolism, 2019, 22: 96-109. </p>
-<p>10)  Yingzheng Wang#, Mingjun Liu, Jiyang Zhang, <strong>Yuwen Liu</strong>, Megan Kopp, Weiwei Zheng, Shuo Xiao*. Multidrug resistance protein 1 deficiency promotes doxorubicin-induced ovarian toxicity in female mice[J]. Toxicological Sciences, 2018, 163(1): 279-292. </p>
-<h3 id="课题组成员"><a href="#课题组成员" class="headerlink" title="课题组成员"></a>课题组成员</h3><p><strong>张松</strong></p>
-<p>博士后，Chip-seq</p>
-<p><strong>付阳</strong></p>
-<p>科研助理，GS</p>
-
+        <p class="article-excerpt-content">
+          Welcome to Liu Lab.课题组隶属于动物基因组研究中心“猪基因组设计育种创新团队”，整合表观遗传学实验技术和生物信息学技术，围绕猪经济性状的分子育种理论与技术开展工作。
+Principal Investigator 刘毓文工作经历：
+2019.01至今：中国农业科学院农业基因组研究所，动物基因组中心，研究员， 课题组组长
+2018.08 - 2019.01：深圳深知生物科技有限公司，首席科学家 
+2014.08 - 2018.07：芝加哥大学，人类遗传学，博士后  
+教育背景...
+        </p>
+        <p class="article-more-link">
+          <a href="/liu-lab/#more">Read More</a>
+        </p>
       
     </div>
-
     <footer class="article-footer">
-
-      <div class="large-4 columns article-share article-share-fb"><a href="https://www.facebook.com/sharer/sharer.php?u=http://yfu1116.github.io/liu-lab/" target="_blank" rel="noopener" url="http://yfu1116.github.io/liu-lab/" data-id="ck4grgyos0000y0ur28hm5dd4" class="article-share-link">Share on Facebook</a>
-      </div>
-
-      <div class="large-4 columns article-share article-share-tw"><a href='https://twitter.com/home?status=liu-lab http://yfu1116.github.io/liu-lab/ ' target="_blank" rel="noopener"></a></div>
-
+      
+      
+      
       
 
-      
     </footer>
   </div>
   
 </article>
 
+<!-- Table of Contents -->
 
 
   
-  
 
 
-
-
-
-        </section>
-
+</section>
         
-          <aside id="sidebar" class="medium-4 large-4 columns">
-  
-    
-
-  
-    
-
-  
-    
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title subheading">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title subheading">Recents</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/liu-lab/">liu-lab</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-
-  
-</aside>
-
-        
-
       </div>
-
-      <nav id="mobile-nav" class="left-off-canvas-menu">
-  <ul class="off-canvas-list">
+      
+        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
+      
+      <footer id="footer">
   
-    <li role="menuitem">
-      <a href="/" class="mobile-nav-link">Home</a>
-    </li>
-  
-    <li role="menuitem">
-      <a href="/archives" class="mobile-nav-link">Archives</a>
-    </li>
-  
-  </ul>
-</nav>
 
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2019 yang&#39;s blog All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
 
-      <hr />
-      <footer id="footer" class="row l-footer border-top">
-
-  <div class="show-for-sr">
-  
+		
   </div>
-
-  <div class="l-footer-body">
-    <div id="footer-info" class="large-6 columns">
-      &copy; 2019 yang&#39;s blog<br>
-    </div>
-    <div class="large-6 columns text-right">
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-
-
 </footer>
 
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
     </div>
-
-
-
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
 </script>
 
-<script src="/lib/foundation/js/foundation.js"></script>
-<script src="/lib/foundation/js/foundation/foundation.topbar.js"></script>
-<script src="/lib/foundation/js/foundation/foundation.offcanvas.js"></script>
-<script>
-$(document).foundation();
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
 </script>
-<script src="/js/script.js"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/scripts.js"></script>
+
+
+  <script src="/js/home.js"></script>
+
+
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
 
 
   </div>
 
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
 
-<!-- Enable Browser Sync -->
-<script type='text/javascript' id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.6.11.js'><\/script>".replace("HOST", location.hostname));
-//]]></script>
-<!-- /Enable Browser Sync -->
 
-</div></div> <!--OffCanvas Div's-->
-</body></html>
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            yang&#39;s blog
+          </div>
+          <div class="panel-body">
+            Copyright © 2019 yang&#39;s blog All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+</body>
+</html>
