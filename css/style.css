@@ -603,7 +603,7 @@ body {
 @media screen and (max-width: 479px) {
   .brand {
     display: inline;
-    margin-left: -58px;
+    margin-left: -53px;
     left: 50%;
   }
 }
