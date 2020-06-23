@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="yang&#39;s blog">
 <meta property="og:description" content="0623_tadaA_devel_res            &#x2F;*! * * Twitter Bootstrap * *&#x2F; &#x2F;*!  * Bootstrap v3.3.7 (http:&#x2F;&#x2F;getbootstrap.com)  * Copyright 2011-2016 Twitter, Inc.  * Licensed under MIT (https:&#x2F;&#x2F;github.com&#x2F;twbs">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-06-23T10:54:19.590Z">
+<meta property="og:updated_time" content="2020-06-23T11:26:29.686Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="yang&#39;s blog" type="application/atom+xml">
@@ -175,7 +175,7 @@
     <div class="article-meta">
       
 	<a href="/0623_tadaA_devel_res/" class="article-date">
-	  <time datetime="2020-06-23T10:54:19.577Z" itemprop="datePublished">2020-06-23</time>
+	  <time datetime="2020-06-23T11:26:29.671Z" itemprop="datePublished">2020-06-23</time>
 	</a>
 
 
@@ -187,7 +187,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <!DOCTYPE html>
-<!-- saved from url=(0057)file:///C:/Users/dell/Downloads/0623_tadaA_devel_res.html -->
+<!-- saved from url=(0063)file:///C:/Users/dell/Downloads/0623_tadaA_devel_res%20(1).html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>0623_tadaA_devel_res</title>
@@ -13374,7 +13374,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Get-scaling-factors-for-un-calibrated-mutation-rate">Get scaling factors for un-calibrated mutation rate<a class="anchor-link" href="file:///C:/Users/dell/Downloads/0623_tadaA_devel_res.html#Get-scaling-factors-for-un-calibrated-mutation-rate">¶</a></h3><ul>
+<h3 id="Get-scaling-factors-for-un-calibrated-mutation-rate">Get scaling factors for un-calibrated mutation rate<a class="anchor-link" href="file:///C:/Users/dell/Downloads/0623_tadaA_devel_res%20(1).html#Get-scaling-factors-for-un-calibrated-mutation-rate">¶</a></h3><ul>
 <li><strong>mut_file</strong> the file with DNM infomation in a BED format. 0-based start and 1-based end. </li>
 <li><strong>window_file</strong> the file with genomic windows. Each line represents one window. The first 4 columns must be chr, start, end, and site_index of genomic windows. The rest of the columns are features that might affect baseline background mutation rates and that need to be adjusted for.</li>
 <li><strong>sample_size</strong> the number of individuals.</li>
@@ -13453,13 +13453,13 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Read-in-DNM-data,-annotation-data-and-adjusted-mutation-rate-data.">Read in DNM data, annotation data and adjusted mutation rate data.<a class="anchor-link" href="file:///C:/Users/dell/Downloads/0623_tadaA_devel_res.html#Read-in-DNM-data,-annotation-data-and-adjusted-mutation-rate-data.">¶</a></h3>
+<h3 id="Read-in-DNM-data,-annotation-data-and-adjusted-mutation-rate-data.">Read in DNM data, annotation data and adjusted mutation rate data.<a class="anchor-link" href="file:///C:/Users/dell/Downloads/0623_tadaA_devel_res%20(1).html#Read-in-DNM-data,-annotation-data-and-adjusted-mutation-rate-data.">¶</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sos"><pre><span></span><span class="n">system</span><span class="o">.</span><span class="n">time</span><span class="p">(</span><span class="n">compact_data</span> <span class="o">&lt;-</span> <span class="n">TADA_A_read_info</span><span class="p">(</span>
@@ -13503,15 +13503,15 @@ div#notebook {
 [1] "Read in mutrate scaling file ../Jiang_cases_DNM_windows_mutrate_with_div_score_scaling_file_for_test_DNM.txt"
 [1] "Read in gene prior file."
 [1] "Chose the top 10% genes for parameter estimation."
-[1] "Patitioned genomic window to base-level coordinates at Round 1. Time consumed: 15.824s."
-[1] "Obtained un-calibrated base-level mutation rate for alt alleles. Time consumed: 17.571.s"
-[1] "Added non-allele specific annotations 1. Time consumed: 15.548s."
-[1] "Added allele specific annotations 2 .Time consumed: 77.928s."
+[1] "Patitioned genomic window to base-level coordinates at Round 1. Time consumed: 16.336s."
+[1] "Obtained un-calibrated base-level mutation rate for alt alleles. Time consumed: 17.956.s"
+[1] "Added non-allele specific annotations 1. Time consumed: 15.73s."
+[1] "Added allele specific annotations 2 .Time consumed: 77.382s."
 [1] "Begin collapsing data..."
 [1] "Read in mutation file ../cell_DNM_allele.bed."
-[1] "Collapsed data based on annotations for Study 1 .Time consumed: 10.079.s"
+[1] "Collapsed data based on annotations for Study 1 .Time consumed: 10.12.s"
 [1] "Read in mutation file DNM_repo/Jiang_cases_DNM_with_allele_info.txt."
-[1] "Collapsed data based on annotations for Study 2 .Time consumed: 9.865.s"
+[1] "Collapsed data based on annotations for Study 2 .Time consumed: 9.411.s"
 [1] "Temp files cleaned and data recording finished!"
 </pre>
 </div>
@@ -13526,7 +13526,7 @@ div#notebook {
 
 <div class="output_text output_subarea ">
 <pre>   user  system elapsed 
-202.883   7.754 147.142 </pre>
+203.654   8.122 147.975 </pre>
 </div>
 
 </div>
@@ -13537,7 +13537,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sos"><pre><span></span><span class="n">compact_data</span><span class="err">$</span><span class="n">base_info</span><span class="p">[[</span><span class="mi">1</span><span class="p">]]</span>
@@ -13632,7 +13632,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Estimate-relative-risk-of-annotations.">Estimate relative risk of annotations.<a class="anchor-link" href="file:///C:/Users/dell/Downloads/0623_tadaA_devel_res.html#Estimate-relative-risk-of-annotations.">¶</a></h3><ul>
+<h3 id="Estimate-relative-risk-of-annotations.">Estimate relative risk of annotations.<a class="anchor-link" href="file:///C:/Users/dell/Downloads/0623_tadaA_devel_res%20(1).html#Estimate-relative-risk-of-annotations.">¶</a></h3><ul>
 <li><strong>data</strong> is the <strong>base_info</strong> returned from <strong>TADA_A_reading_in_annotations</strong>, which contains all the allele specific data across all studies</li>
 <li><strong>selected_annotations</strong> is a vector indicating non-coding annotations whose RRs need to be estimated. e.g., c(2,3) means that the 2nd and 3rd annotations in the <strong>noncoding_annotations</strong> argument of <strong>TADA_A_reading_in_annotations</strong> will have their RRs estimated.</li>
 <li><strong>gene_prior_file</strong>, a file that has the prior probability of each gene as a risk gene. e.g., "../data/Example_gene_prior.txt".</li>
@@ -13645,7 +13645,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sos"><pre><span></span><span class="n">RR</span> <span class="o">=</span> <span class="n">TADA_A_RR_estimate</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">compact_data</span><span class="err">$</span><span class="n">base_info</span><span class="p">,</span>
@@ -13670,7 +13670,7 @@ div#notebook {
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[1] "Read in gene prior file. Time consumed: 0.007s."
-[1] "Finished optimization. Time consumed: 3.832.s"
+[1] "Finished optimization. Time consumed: 3.848.s"
 [1] "Got confidence intervals of RR estimates."
 [1] "Finished RR estimation!"
 </pre>
@@ -13746,7 +13746,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="calculating-Bayes-factors-for-genes-based-on-annotations-in-order-to-predict-risk-genes.">calculating Bayes factors for genes based on annotations in order to predict risk genes.<a class="anchor-link" href="file:///C:/Users/dell/Downloads/0623_tadaA_devel_res.html#calculating-Bayes-factors-for-genes-based-on-annotations-in-order-to-predict-risk-genes.">¶</a></h3><ul>
+<h3 id="calculating-Bayes-factors-for-genes-based-on-annotations-in-order-to-predict-risk-genes.">calculating Bayes factors for genes based on annotations in order to predict risk genes.<a class="anchor-link" href="file:///C:/Users/dell/Downloads/0623_tadaA_devel_res%20(1).html#calculating-Bayes-factors-for-genes-based-on-annotations-in-order-to-predict-risk-genes.">¶</a></h3><ul>
 <li><strong>data</strong> is the <strong>base_info</strong> returned from <strong>TADA_A_read_info</strong>, each element of the list has compact base-level information for each gene. </li>
 <li><strong>selected_annotations</strong> determines which features in the <strong>data</strong> are going to be used for calculating bayes factors. e.g., if <strong>selected_annotations</strong> is c(1,3). Then the first and third element of feature_vector in the <strong>base_info</strong> of <strong>data</strong> will be selected.</li>
 <li><strong>rr</strong> is the estimated relative risks of <strong>selected_annotations</strong>. RRs are estimated from <strong>TADA_A_RR_estimate</strong>. 
@@ -13760,7 +13760,7 @@ RRs are in the log scale</li>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-sos"><pre><span></span><span class="n">BF</span> <span class="o">=</span> <span class="n">TADA_A_get_BFs</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">compact_data</span><span class="err">$</span><span class="n">base_info</span><span class="p">,</span>
@@ -13780,6 +13780,22 @@ RRs are in the log scale</li>
 <div class="output_wrapper">
 <div class="output">
 
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[1] "Read in additional BF file test_data/gene_BF."
+[1] "Flagged genes that don't have any bases with any informative annotation."
+[1] "Got the names of genes without bases that have informative rr features."
+[1] "Got logBF_noncoding."
+[1] "Added coding and non-coding logBF. Time consumed: 1.985s."
+[1] "Finished!"
+</pre>
+</div>
+</div>
 
 <div class="output_area">
 
