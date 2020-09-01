@@ -1,198 +1,104 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  <title>0610-ea-results | yang&#39;s blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  
-  
-  
-  <meta name="description" content="0610-EA-results            &#x2F;*! * * Twitter Bootstrap * *&#x2F; &#x2F;*!  * Bootstrap v3.3.7 (http:&#x2F;&#x2F;getbootstrap.com)  * Copyright 2011-2016 Twitter, Inc.  * Licensed under MIT (https:&#x2F;&#x2F;github.com&#x2F;twbs&#x2F;boot">
-<meta property="og:type" content="article">
-<meta property="og:title" content="0610-EA-results">
-<meta property="og:url" content="https:&#x2F;&#x2F;yfu1116.github.io&#x2F;project&#x2F;0610-EA-results&#x2F;index.html">
-<meta property="og:site_name" content="yang&#39;s blog">
-<meta property="og:description" content="0610-EA-results            &#x2F;*! * * Twitter Bootstrap * *&#x2F; &#x2F;*!  * Bootstrap v3.3.7 (http:&#x2F;&#x2F;getbootstrap.com)  * Copyright 2011-2016 Twitter, Inc.  * Licensed under MIT (https:&#x2F;&#x2F;github.com&#x2F;twbs&#x2F;boot">
-<meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-06-11T01:12:00.001Z">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="yang&#39;s blog" type="application/atom+xml">
-  
-
-  
-
-  <link rel="icon" href="/project/css/images/mylogo.jpg">
-  <link rel="apple-touch-icon" href="/project/css/images/mylogo.jpg">
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <style type="text/css">
-    @font-face{font-family:futura-pt; src:url("/project/css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt-light; src:url("/project/css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
-    @font-face{font-family:futura-pt-italic; src:url("/project/css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>0610-EA-results | yang's blog</title><meta name="description" content="0610-EA-results            &#x2F;*! * * Twitter Bootstrap * *&#x2F; &#x2F;*!  * Bootstrap v3.3.7 (http:&#x2F;&#x2F;getbootstrap.com)  * Copyright 2011-2016 Twitter, Inc.  * Licensed under MIT (https:&#x2F;&#x2F;github.com&#x2F;twbs&#x2F;boot"><meta name="author" content=""><meta name="copyright" content=""><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/project/img/favicon.png"><link rel="canonical" href="https://yfu1116.github.io/project/0610-EA-results/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="0610-EA-results"><meta property="og:url" content="https://yfu1116.github.io/project/0610-EA-results/"><meta property="og:site_name" content="yang's blog"><meta property="og:description" content="0610-EA-results            &#x2F;*! * * Twitter Bootstrap * *&#x2F; &#x2F;*!  * Bootstrap v3.3.7 (http:&#x2F;&#x2F;getbootstrap.com)  * Copyright 2011-2016 Twitter, Inc.  * Licensed under MIT (https:&#x2F;&#x2F;github.com&#x2F;twbs&#x2F;boot"><meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="article:published_time" content="2020-06-11T01:11:54.757Z"><meta property="article:modified_time" content="2020-06-11T01:12:00.001Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
 }
 
-  </style>
-  <link rel="stylesheet" href="/project/css/style.css">
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
 
-  <script src="/project/js/jquery-3.1.1.min.js"></script>
-  <script src="/project/js/bootstrap.js"></script>
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/project/css/bootstrap.css" >
-
-  
-    <link rel="stylesheet" href="/project/css/dialog.css">
-  
-
-  
-
-  
-    <link rel="stylesheet" href="/project/css/header-post.css" >
-  
-
-  
-  
-  
-    <link rel="stylesheet" href="/project/css/vdonate.css" >
-  
-
-</head>
-
-
-
-  <body data-spy="scroll" data-target="#toc" data-offset="50">
-
-
-  
-  <div id="container">
-    <div id="wrap">
-      
-        <header>
-
-    <div id="allheader" class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="navbar-inner">
-          
-          <div class="container"> 
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            
-              <a class="brand" style="
-                 margin-top: 0px;"  
-                href="#" data-toggle="modal" data-target="#myModal" >
-                  <img width="124px" height="124px" alt="Hike News" src="/project/css/images/mylogo.jpg">
-              </a>
-            
-            
-            <div class="navbar-collapse collapse">
-              <ul class="hnav navbar-nav">
-                
-                  <li> <a class="main-nav-link" href="/project/">Home</a> </li>
-                
-                  <li> <a class="main-nav-link" href="/project/archives">Archives</a> </li>
-                
-                  <li> <a class="main-nav-link" href="/project/categories">Categories</a> </li>
-                
-                  <li> <a class="main-nav-link" href="/project/tags">Tags</a> </li>
-                
-                  <li> <a class="main-nav-link" href="/project/about">About</a> </li>
-                
-                  <li><div id="search-form-wrap">
-
-    <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="" />
-        <button type="submit" class="search-form-submit"></button>
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..." />
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
-</div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
-        },
-        ROOT_URL: '/project/',
-        CONTENT_URL: '/project/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-<script src="/project/js/insight.js"></script>
-
-</div></li>
-            </div>
-          </div>
-                
-      </div>
-    </div>
-
-</header>
-
-
-
-      
-            
-      <div id="content" class="outer">
-        
-          <section id="main" style="float:none;"><article id="post-0610-EA-results" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" class="article-title" itemprop="name">
-      0610-EA-results
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	<a href="/project/0610-EA-results/" class="article-date">
-	  <time datetime="2020-06-11T01:11:54.757Z" itemprop="datePublished">2020-06-11</time>
-	</a>
-
-      
-      
-	<a class="article-views">
-	<span id="busuanzi_container_page_pv">
-		PV:<span id="busuanzi_value_page_pv"></span>
-	</span>
-	</a>
-
-      
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!DOCTYPE html>
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/project/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/project/',
+  hexoversion: '4.0.0',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2020-06-11 09:12:00'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="/project/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/project/archives/"><div class="headline">Articles</div><div class="length_num">7</div></a></div></div></div><hr/></div></div><div id="body-wrap"><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#diffPeak"><span class="toc-number">1.</span> <span class="toc-text">diffPeak¶</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#non-coding-conserved-regions"><span class="toc-number">2.</span> <span class="toc-text">non-coding conserved regions¶</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ATAC-DEG"><span class="toc-number">3.</span> <span class="toc-text">ATAC-DEG¶</span></a></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/project/">yang's blog</a></span><span class="pull-right menus"><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">0610-EA-results</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2020-06-11T01:11:54.757Z" title="Created 2020-06-11 09:11:54">2020-06-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2020-06-11T01:12:00.001Z" title="Updated 2020-06-11 09:12:00">2020-06-11</time></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><!DOCTYPE html>
 <html>
 <head><meta charset="utf-8">
 
@@ -14175,294 +14081,4 @@ div#notebook {
 
 
 </html>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-        <div id="donation_div"></div>
-
-<script src="/project/js/vdonate.js"></script>
-<script>
-var a = new Donate({
-  title: '如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!', // 可选参数，打赏标题
-  btnText: 'Donate', // 可选参数，打赏按钮文字
-  el: document.getElementById('donation_div'),
-  wechatImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/WeChanQR.png',
-  alipayImage: 'https://raw.githubusercontent.com/iTimeTraveler/iTimeTraveler.github.io/site/source/about/donate/images/AliPayQR.jpg'
-});
-</script>
-      
-      
-      <div>
-        <ul class="post-copyright">
-          <li class="post-copyright-author">
-          <strong>Post author:  </strong></a>
-          </li>
-          <li class="post-copyright-link">
-          <strong>Post link:  </strong>
-          <a href="/project/0610-EA-results/" target="_blank" title="0610-EA-results">https://yfu1116.github.io/project/0610-EA-results/</a>
-          </li>
-          <li class="post-copyright-license">
-            <strong>Copyright Notice:   </strong>
-            All articles in this blog are licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
-            unless stating additionally.
-          </li>
-         
-        </ul>
-<div>
-
-      
-      
-        
-	<div id="comment">
-		<!-- 来必力City版安装代码 -->
-		<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ4MS82MDQ5">
-		<script type="text/javascript">
-		   (function(d, s) {
-		       var j, e = d.getElementsByTagName(s)[0];
-
-		       if (typeof LivereTower === 'function') { return; }
-
-		       j = d.createElement(s);
-		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-		       j.async = true;
-
-		       e.parentNode.insertBefore(j, e);
-		   })(document, 'script');
-		</script>
-		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-		</div>
-		<!-- City版安装代码已完成 -->
-	</div>
-
-
-
-      
-      
-        
-      
-
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/project/0623_tadaA_devel_res/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          0623_tadaA_devel_res
-        
-      </div>
-    </a>
-  
-  
-    <a href="/project/liu-lab/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">liu-lab</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-<!-- Table of Contents -->
-
-  <aside id="toc-sidebar">
-    <div id="toc" class="toc-article">
-    <strong class="toc-title">Contents</strong>
-    
-        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#diffPeak"><span class="nav-number">1.</span> <span class="nav-text">diffPeak¶</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#non-coding-conserved-regions"><span class="nav-number">2.</span> <span class="nav-text">non-coding conserved regions¶</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ATAC-DEG"><span class="nav-number">3.</span> <span class="nav-text">ATAC-DEG¶</span></a></li></ol>
-    
-    </div>
-  </aside>
-
-</section>
-        
-      </div>
-      
-      <footer id="footer">
-  
-
-  <div class="container">
-      	<div class="row">
-	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
-	      <p id="copyRightEn">Copyright &copy; 2013 - 2020 yang&#39;s blog All Rights Reserved.</p>
-	      
-	      
-    		<p class="busuanzi_uv">
-				UV : <span id="busuanzi_value_site_uv"></span> |  
-				PV : <span id="busuanzi_value_site_pv"></span>
-		    </p>
-  		   
-		</div>
-
-		
-  </div>
-</footer>
-
-
-<!-- min height -->
-
-<script>
-    var wrapdiv = document.getElementById("wrap");
-    var contentdiv = document.getElementById("content");
-    var allheader = document.getElementById("allheader");
-
-    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
-    if (allheader != null) {
-      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
-    } else {
-      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
-    }
-</script>
-    </div>
-    <!-- <nav id="mobile-nav">
-  
-    <a href="/project/" class="mobile-nav-link">Home</a>
-  
-    <a href="/project/archives" class="mobile-nav-link">Archives</a>
-  
-    <a href="/project/categories" class="mobile-nav-link">Categories</a>
-  
-    <a href="/project/tags" class="mobile-nav-link">Tags</a>
-  
-    <a href="/project/about" class="mobile-nav-link">About</a>
-  
-</nav> -->
-    
-
-<!-- mathjax config similar to math.stackexchange -->
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-  <link rel="stylesheet" href="/project/fancybox/jquery.fancybox.css">
-  <script src="/project/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/project/js/scripts.js"></script>
-
-
-
-
-  <script src="/project/js/dialog.js"></script>
-
-
-
-
-
-
-
-
-	<div style="display: none;">
-    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-  </div>
-
-
-
-	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-	</script>
-
-
-
-
-
-
-  </div>
-
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title" id="myModalLabel">设置</h2>
-      </div>
-      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
-      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
-
-
-      <div class="modal-body">
-          <div style="margin:6px;">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
-              正文字号大小
-            </a>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="panel-body">
-            您已调整页面字体大小
-          </div>
-        </div>
-      
-
-
-          <div style="margin:6px;">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
-              夜间护眼模式
-            </a>
-        </div>
-          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="panel-body">
-            夜间模式已经开启，再次单击按钮即可关闭 
-          </div>
-        </div>
-
-        <div>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        </div>
-         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="panel-body">
-            yang&#39;s blog
-          </div>
-          <div class="panel-body">
-            Copyright © 2020 yang&#39;s blog All Rights Reserved.
-          </div>
-        </div>
-      </div>
-
-
-      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
-      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
-      <div class="modal-footer">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-      </div>
-    </div>
-  </div>
-</div>
-  
-  <a id="rocket" href="#top" class=""></a>
-  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
-  
-    <a id="menu-switch"><i class="fa fa-bars fa-lg"></i></a>
-  
-</body>
-</html>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined" target="_blank" rel="noopener"></a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://yfu1116.github.io/project/0610-EA-results/">https://yfu1116.github.io/project/0610-EA-results/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/project/0623_tadaA_devel_res/"><img class="prev-cover" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/project/img/404.jpg'"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">0623_tadaA_devel_res</div></div></a></div><div class="next-post pull-right"><a href="/project/liu-lab/"><img class="next-cover" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/project/img/404.jpg'"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">liu-lab</div></div></a></div></nav></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By </div><div class="framework-info"><span>Framework </span><a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="Increase Font Size"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="Decrease Font Size"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/project/js/utils.js"></script><script src="/project/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div></body></html>
